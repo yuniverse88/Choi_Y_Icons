@@ -1,43 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.: SVG Icons :.</title>
-
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <header>
-        <h1 class="hidden">SVG Icon Project</h1>
-        <!-- put the polder struchure header stuff - icons nav logo ets-->
-        <h2>SYG Icons-Raster V Vector</h2>
-    </header>
-
-     <!--icons go here-->
-     <section class="icon-container">
-
-        <div class="wrapper">
-          <object data="images/SVG_Graphic.svg" type="image/svg+xml"></object>
-
-        </div>
-        
-        <div class="wrapper">
-            <img id="bitmap" src="images/Jpeg_Graphic.jpg" alt="JPG badge">
-        </div>
-        
-        <div class="wrapper">
-            <img id="vector" src="images/SVG_Graphic.svg" alt="SBG badge">
-        </div>
-
-        <div class="wrapper">
-
-            <!--inline SVG star here-->
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.69 167.01">
-            <defs>
-               <style>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.69 167.01">
+  <defs>
+    <style>
       .cls-1 {
         fill: #fff;
       }
@@ -163,19 +127,3 @@
     <circle class="cls-5" cx="83.49" cy="83.36" r="74.9" transform="translate(-11.52 153.31) rotate(-81.32)"/>
   </g>
 </svg>
-            <!--inline SVG end here-->
-
-        </div>
-       
-     </section>
-    <!-- put your mock up footer stuff here-->
-
-    
-
-
-    <footer>
-        <h2>footer content</h2>
-    </footer>
-    <script src="js/main.js"></script>
-</body>
-</html>
